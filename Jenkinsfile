@@ -18,6 +18,8 @@ pipeline {
 
         stage('Run App') {
             steps {
+                echo 'Stopping old containers if any...'
+                bat 'docker-compose down'
                 echo 'Starting all containers...'
                 bat 'docker-compose up -d'
             }
