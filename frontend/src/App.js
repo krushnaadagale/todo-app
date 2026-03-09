@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div style={{ maxWidth: 500, margin: '50px auto', fontFamily: 'Arial' }}>
-      <h1>📝 My Todo App</h1>
+      <h1> Krushna Todo App</h1>
       <div style={{ display: 'flex', gap: 10 }}>
         <input
           value={text}
